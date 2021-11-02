@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".aboutActivity"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/sfit_logo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_source"
+        android:hint="Enter Source Location"
+        android:layout_marginTop="30dp"
+        android:padding="12dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_destination"
+        android:text="Destination = SFIT, Mumbai, Maharashtra"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/bt_track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY TRACK"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="St. Francis Institute of Technology \n\n  BE INFT B \n AADL Project \n\n Guide: Ms. Alvina Alphanso \n HOD: Dr. Joanne Gomes \n \n Group Members: \n 41) Yashodeep Pawar - 181083 \n 42) Medha Kumble -  181089\n 43) Shreyas Tulpule - 181116 \n 44) Niharika Pattabhi - 181081"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
