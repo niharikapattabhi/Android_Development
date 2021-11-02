@@ -1,0 +1,31 @@
+Hello and welcome to MusicZone!
+Thank you for taking interest in our project. Let me walk you through it.
+
+This project was created as a part of a miniproject requirement in the 7th semester of our engineering course.
+It was a group project and the members are myself(Niharika Pattabhi), Medha Kumble, Yashodeep Pawar and Shreyas Tulpule.
+
+Now let's check out what the project actually does:
+-> Firstly you need to know that this is an entry level music player app.
+   Hence why you will see some basic GUI with the default color scheme.
+   
+-> When u first start the app, you will see a screen that will ask you either to login or signup.
+   We have used SQLite as our database for this project. 
+   * signup requires you to provide an email address, set a password and retype the password for confirmation.
+   * login will require you to enter in your registered email address and the password you created.
+   
+-> The application will access the external storage of the device it is installed on
+   and look for .mp3 or .wav files, audio files, and display them in list form.
+   
+-> Once logged in you will see 3 options: play music, user profile and about us
+   * play music as the name suggests lets you play music and toggle some features like:
+     play, pause, skip forward or backward by 10 seconds, skip to next or previous song,
+     loop current song and shuffle the list.
+   * user profile let's the user chage profile picture by either selecting from gallery
+     or by taking a picture through the camera.
+   * about us section is somewhat similar to this readme file. It gives information about
+     us, the creators of the app, and also lets you check out the location of our college.
+     
+  We hope this helps you in some way :)
+
+
+   
